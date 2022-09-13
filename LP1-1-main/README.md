@@ -1,7 +1,5 @@
-# **Bicicleta**
-<div align="center">
-<img src="https://user-images.githubusercontent.com/108765052/188893223-ef304e4c-f73b-44c2-b0dd-611e3792a590.jpg" width="450px" />
-</div>
+# Atividade - Moto
+![Galeria_34](https://user-images.githubusercontent.com/102263593/189791360-3514e18a-23a4-48e6-8b89-a5cff6a9987f.jpeg)
 
 ## Atributos 
 - Marca;
