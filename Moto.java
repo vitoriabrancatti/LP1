@@ -8,6 +8,10 @@ package moto;
  *
  * @author Vitoria Brancatti
  */
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
 public class Moto {
     private String modelo;
     private String marca;
@@ -18,7 +22,10 @@ public class Moto {
      //METODO CONSTRUTOR
     public Moto() {
     }
+    ArrayList<String> cadastro = new ArrayList();
     
+    cadastro.add("Marca, modelo, cor, velocidade, acessorio");
+
     public Moto(String marca, String modelo, String cor, boolean velocidade, String acessorio) {
         this.marca = marca;
         this.modelo = modelo;
@@ -45,9 +52,7 @@ public class Moto {
     }
     public void setCor(String cor){
         this.cor = cor;
-    }
-    public void setAro(String aro){
-        this.aro = aro;
+
     }
     public String getAcessorio(){
         return acessorio;
@@ -75,7 +80,7 @@ public class Moto {
         if (this.velocidade == true) {
             System.out.println("Mudando de marcha");
         } else {
-            System.out.println("Mudar de marcha estando parado, pode danificar sua bicicleta");
+            System.out.println("Cuidado ao mudar de marcha");
         }
         
     }
